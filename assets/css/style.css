@@ -1,5 +1,5 @@
 .card{
-    background-color:teal;
+    background-color:#4aaaa5;
     color:#ffffff;
     border-radius: 0px;
     font-size: 30px;
@@ -21,8 +21,20 @@
 
 .topper{
     border-bottom: 3px solid #cccccc;
+    background-color:white;
+    
 }
 
-.body{
+body{
     background-image: url("../images/crossline-dots.png");
+}
+
+.footer{
+    background-color: #cccccc;
+}
+
+.content{
+    background-color:white;
+    height: relative;
+    border: 1px solid #cccccc; 
 }
