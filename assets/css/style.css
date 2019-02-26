@@ -1,4 +1,4 @@
-.card{
+.header{
     background-color:#4aaaa5;
     color:#ffffff;
     border-radius: 0px;
@@ -27,14 +27,21 @@
 
 body{
     background-image: url("../images/crossline-dots.png");
+    padding:0px;
 }
 
 .footer{
-    background-color: #cccccc;
+    background-color: #666666;
+    color:#cccccc;
+    position:relative;
+    bottom:0;
+    left:0;
 }
 
 .content{
     background-color:white;
-    height: relative;
     border: 1px solid #cccccc; 
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:300px;
 }
