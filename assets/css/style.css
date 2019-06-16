@@ -1,47 +1,46 @@
-.header{
-    background-color:#4aaaa5;
-    color:#ffffff;
-    border-radius: 0px;
-    font-size: 30px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    
+.header {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border-radius: 0px;
+  font-size: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-.port{
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+.port {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
 }
 
-.nav{
-
-    margin-top:20px;
-    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
-    
+.nav {
+  margin-top: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.topper{
-    border-bottom: 3px solid #cccccc;
-    background-color:white;
-    
+.topper {
+  border-bottom: 3px solid #cccccc;
+  background-color: white;
 }
 
-body{
-    background-image: url("../images/crossline-dots.png");
-    padding:0px;
+body {
+  background-image: url("../images/crossline-dots.png");
+  padding: 0px;
 }
 
-.footer{
-    background-color: #666666;
-    color:#cccccc;
-    position:relative;
-    bottom:0;
-    left:0;
+.footer {
+  background-color: #666666;
+  color: #cccccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
-.content{
-    background-color:white;
-    border: 1px solid #cccccc; 
-    margin:auto;
-    margin-top:100px;
-    margin-bottom:300px;
+.content {
+  background-color: white;
+  border: 1px solid #cccccc;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.nav {
 }
