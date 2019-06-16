@@ -22,14 +22,14 @@
 
       <div class="row topper">
         <!--The header does not completely span the entire screen and does not collapse properly and 
-    should at one point have the navigation or links to other pages appear beneath the header-->
+        should at one point have the navigation or links to other pages appear beneath the header-->
 
-        <div class="col-1"></div>
-        <div class="card-body text-center header col-md-auto">
-          Harrison Fales
+        <div class="col-sm-1"></div>
+        <div class="card-body text-center header col-sm-auto">
+          <strong>Harrison Fales</strong>
         </div>
 
-        <div class="col-md-auto bar">
+        <div class="col-sm-auto bar">
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">About</a>
@@ -42,42 +42,48 @@
             </li>
           </ul>
         </div>
-        <div class="col-1"></div>
+        <div class="col-sm-1"></div>
       </div>
       <!--At this moment I have too much work into the css file, and not enought done to modify the 
-        bootstrap within the html, this area needs a background div or block to display the forms
-    and to appropriate the correct titles and borders and margins-->
+            bootstrap within the html, this area needs a background div or block to display the forms
+        and to appropriate the correct titles and borders and margins-->
 
-      <div class="row ">
-        <div class="col-12">
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-          </form>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 card">
+          <div class="card-body">
+            <h2 class="card-title">Contact</h2>
+            <hr />
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="John Smith"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="col-1"></div>
         </div>
       </div>
     </div>
